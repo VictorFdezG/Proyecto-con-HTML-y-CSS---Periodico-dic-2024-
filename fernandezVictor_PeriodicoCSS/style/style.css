@@ -1,0 +1,159 @@
+/* Class para cambiar todo el cuerpo de las páginas */
+.bodybonito {
+    /* Con el primer valor rgba damos opacidad a la imagen, con el segundo creamos un degradado de opacidad desde abajo hacia arriba*/
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.9)),
+        url(../imagenes/background.png);
+    background-size: cover;
+    background-attachment: scroll;
+    height: max-content;
+}
+
+/* Class para cambiar todo el header de las páginas */
+.headerbonito {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)),
+        url(../imagenes/headerbg.jpg);
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: darkviolet;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    margin-top: 2rem;
+    border: 3px solid black;
+}
+
+/* Class para cambiar todo el main de las páginas */
+.mainbonito {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* ID para personalizar valores */
+#saludo {
+    background: rgba(179, 218, 224, 0.2);
+    margin: 70px;
+}
+
+/* ID para personalizar valores */
+#cambio {
+    background: rgba(179, 218, 224, 0.4);
+    border: 3px ridge rgb(208, 223, 6);
+}
+
+/* ID para personalizar valores de la imagen*/
+#marco {
+    border: 2px solid black;
+    width: "500";
+    height: "400";
+}
+
+/* ID para personalizar valores de la imagen */
+#imagenhb {
+    margin-bottom: 50px;
+    border: 4px groove gold;
+    width: "500";
+    height: "400";
+}
+
+/* ID para personalizar valores del GIF*/
+#gif {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: "300";
+    height: "300";
+}
+
+/* ID para personalizar valores */
+#bordes {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: rgba(179, 218, 224, 0.4);
+    border-bottom: 1px ridge black;
+    border-top: 1px ridge black;
+}
+
+/* Demostrar un posible uso del text-decoration */
+#bromita {
+    text-decoration: line-through;
+}
+
+/* ID para personalizar valores */
+#lista {
+    text-align: left;
+}
+
+/* ID para personalizar valores */
+#diferenciar {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(179, 218, 224, 0.4);
+    border: 3px ridge black;
+}
+
+/* ID para personalizar valores de la imagen*/
+#imgr {
+    border: 2px solid black;
+    width: 50%;
+}
+
+/* Class para personalizar valores de las imagenes de la galeria */
+.galeria {
+    border: 1px solid darkslateblue;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 80%;
+    height: auto;
+}
+
+/* Class para personalizar valores de texto */
+.marcador {
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+/* Class para personalizar valores de texto para enlaces */
+.retoque {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+/* Class para personalizar valores de una lista */
+.listado {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+/* Class para personalizar el aside */
+.columna {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+iframe{
+    border: 2px solid darkslateblue;
+    width:500px;
+    height:300px;
+}
+
+/* Personalización del Footer en las páginas */
+footer {
+    margin-top: 100px;
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem 0;
+}
